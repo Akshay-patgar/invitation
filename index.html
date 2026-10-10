@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#5C1A20">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta property="og:title" content="Akshay & Anusha - Wedding Invitation">
+    <meta property="og:description" content="You are cordially invited to celebrate the wedding of Akshay and Anusha">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <title>Akshay & Anusha - Wedding Invitation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Allura&family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ===== GATE-FOLD CARD SCREEN ===== -->
+    <div id="card-screen" class="card-screen">
+
+        <div class="card-scene">
+
+            <!-- Card Interior (revealed behind panels) -->
+            <div class="card-interior" id="card-interior">
+                <!-- Top floral corner -->
+                <svg class="floral-corner floral-tl" viewBox="0 0 100 100">
+                    <path d="M5,95 C5,50 15,25 40,10 C30,20 20,35 18,55 C16,70 18,82 25,90" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5"/>
+                    <path d="M5,95 C10,70 20,50 50,35 C35,45 25,60 23,75 C22,85 25,92 35,95" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+                    <circle cx="40" cy="10" r="2" fill="#D4AF37" opacity="0.6"/>
+                    <circle cx="18" cy="55" r="1.5" fill="#C76B7E" opacity="0.5"/>
+                    <circle cx="50" cy="35" r="1.5" fill="#D4AF37" opacity="0.4"/>
+                </svg>
+                <!-- Top-right floral corner -->
+                <svg class="floral-corner floral-tr" viewBox="0 0 100 100">
+                    <path d="M95,95 C95,50 85,25 60,10 C70,20 80,35 82,55 C84,70 82,82 75,90" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5"/>
+                    <path d="M95,95 C90,70 80,50 50,35 C65,45 75,60 77,75 C78,85 75,92 65,95" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+                </svg>
+
+                <p class="card-interior-together">Together with their families</p>
+                <h1 class="card-interior-names">
+                    <span>Akshay</span>
+                    <span class="card-interior-and">&</span>
+                    <span>Anusha</span>
+                </h1>
+                <p class="card-interior-request">request the honour of your presence<br>at their wedding celebration</p>
+
+                <!-- Bottom floral -->
+                <svg class="floral-bottom" viewBox="0 0 200 40">
+                    <path d="M20,20 Q50,5 100,20 Q150,35 180,20" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+                    <path d="M40,20 Q70,12 100,20 Q130,28 160,20" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.3"/>
+                    <circle cx="100" cy="20" r="2.5" fill="#D4AF37" opacity="0.5"/>
+                </svg>
+            </div>
+
+            <!-- Left Panel -->
+            <div class="panel panel-left" id="panel-left">
+                <div class="panel-face panel-front">
+                    <!-- Male hand from top-left corner -->
+                    <svg class="hand-svg hand-left" viewBox="0 0 240 300" preserveAspectRatio="none">
+                        <!-- forearm / wrist -->
+                        <path d="M-5,55 C25,70 50,90 70,110 C74,130 84,150 100,160" fill="none" stroke="#F3E5D0" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+                        <!-- thumb -->
+                        <path d="M70,104 C68,84 74,66 90,54 C100,45 112,48 114,58 C115,66 108,72 99,73" fill="none" stroke="#F3E5D0" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+                        <!-- index finger -->
+                        <path d="M108,138 C140,122 172,118 198,128 C210,132 218,146 206,154" fill="none" stroke="#F3E5D0" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+                        <!-- middle finger -->
+                        <path d="M112,150 C150,142 186,152 214,166 C225,171 228,184 218,189" fill="none" stroke="#F3E5D0" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+                        <!-- ring finger -->
+                        <path d="M112,164 C148,166 186,178 212,190 C220,195 222,205 213,209" fill="none" stroke="#F3E5D0" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+                        <!-- pinky -->
+                        <path d="M108,178 C138,184 170,198 190,208 C199,212 202,221 193,224" fill="none" stroke="#F3E5D0" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+                        <!-- palm life line -->
+                        <path d="M40,120 C56,168 80,196 108,204" fill="none" stroke="#F3E5D0" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+                        <path d="M62,118 C78,127 90,134 120,146" fill="none" stroke="#F3E5D0" stroke-width="0.7" stroke-linecap="round" opacity="0.3"/>
+                    </svg>
+                </div>
+                <div class="panel-face panel-back"></div>
+            </div>
+
+            <!-- Right Panel -->
+            <div class="panel panel-right" id="panel-right">
+                <div class="panel-face panel-front">
+                    <!-- Female hand from top-right corner -->
+                    <svg class="hand-svg hand-right" viewBox="0 0 240 300" preserveAspectRatio="none">
+                        <!-- forearm / wrist -->
+                        <path d="M245,55 C215,70 190,90 170,110 C166,130 156,150 140,160" fill="none" stroke="#F3E5D0" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+                        <!-- thumb -->
+                        <path d="M170,104 C172,84 166,66 150,54 C140,45 128,48 126,58 C125,66 132,72 141,73" fill="none" stroke="#F3E5D0" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+                        <!-- index finger -->
+                        <path d="M132,138 C100,122 68,118 42,128 C30,132 22,146 34,154" fill="none" stroke="#F3E5D0" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+                        <!-- middle finger -->
+                        <path d="M128,150 C90,142 54,152 26,166 C15,171 12,184 22,189" fill="none" stroke="#F3E5D0" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+                        <!-- ring finger -->
+                        <path d="M128,164 C92,166 54,178 28,190 C20,195 18,205 27,209" fill="none" stroke="#F3E5D0" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+                        <!-- pinky -->
+                        <path d="M132,178 C102,184 70,198 50,208 C41,212 38,221 47,224" fill="none" stroke="#F3E5D0" stroke-width="1.1" stroke-linecap="round" opacity="0.85"/>
+                        <!-- life line -->
+                        <path d="M200,120 C184,168 160,196 132,204" fill="none" stroke="#F3E5D0" stroke-width="0.8" stroke-linecap="round" opacity="0.35"/>
+                        <!-- engagement ring jewel -->
+                        <circle cx="108" cy="150" r="2.2" fill="#D4AF37"/>
+                        <!-- bracelet -->
+                        <ellipse cx="210" cy="76" rx="8" ry="4" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.7" transform="rotate(-35 210 76)"/>
+                    </svg>
+                </div>
+                <div class="panel-face panel-back"></div>
+            </div>
+
+            <!-- Cover accents (fade out when card opens) -->
+            <div class="cover-frame"></div>
+
+            <!-- Corner ornaments -->
+            <svg class="corner-orn c-bl" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6,54 V26 C6,13 13,6 26,6 H54" stroke="#F3E5D0" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+                <path d="M12,54 V30 C12,19 19,12 30,12 H54" stroke="#D4AF37" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+                <path d="M6,44 C13,40 16,33 14,26" stroke="#D4AF37" stroke-width="1.1" stroke-linecap="round" opacity="0.55"/>
+                <path d="M6,49.5 L10.5,54 L6,58.5 L1.5,54 Z" fill="#D4AF37" opacity="0.6"/>
+            </svg>
+            <svg class="corner-orn c-tr" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M54,6 V34 C54,47 47,54 34,54 H6" stroke="#F3E5D0" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+                <path d="M48,6 V30 C48,41 41,48 30,48 H6" stroke="#D4AF37" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+                <path d="M54,16 C47,20 44,27 46,34" stroke="#D4AF37" stroke-width="1.1" stroke-linecap="round" opacity="0.55"/>
+                <path d="M54,1.5 L58.5,6 L54,10.5 L49.5,6 Z" fill="#D4AF37" opacity="0.6"/>
+            </svg>
+
+            <!-- Wax Seal (center) -->
+            <div class="seal" id="seal">
+                <div class="seal-inner">
+                    <span class="seal-text">A<span class="seal-ampersand">&</span>A</span>
+                </div>
+                <div class="seal-shine"></div>
+            </div>
+
+        </div>
+
+        <div class="tap-instruction" id="tap-instruction">
+            <span>Tap the seal to open</span>
+        </div>
+
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <!-- ===== INVITATION SCREEN ===== -->
+    <div id="invitation" class="invitation">
+
+        <!-- Hero Section -->
+        <section class="inv-section inv-hero">
+            <svg class="hero-flourish-top" viewBox="0 0 300 40">
+                <path d="M20,20 Q75,0 150,20 Q225,40 280,20" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.5"/>
+                <path d="M50,20 Q100,8 150,20 Q200,32 250,20" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.35"/>
+                <circle cx="150" cy="20" r="3" fill="#D4AF37" opacity="0.4"/>
+                <circle cx="80" cy="14" r="1.5" fill="#C76B7E" opacity="0.3"/>
+                <circle cx="220" cy="26" r="1.5" fill="#C76B7E" opacity="0.3"/>
+            </svg>
+            <p class="inv-together">Together with their families</p>
+            <h1 class="inv-names">
+<span class="inv-name inv-bride">Akshay</span>
+                    <span class="inv-name inv-and">and</span>
+                    <span class="inv-name inv-groom">Anusha</span>
+            </h1>
+            <p class="inv-request">request the honour of your presence<br>at their wedding celebration</p>
+            <p class="inv-tagline">"And so, our next chapter begins."</p>
+            <svg class="hero-flourish-bottom" viewBox="0 0 300 40">
+                <path d="M20,20 Q75,40 150,20 Q225,0 280,20" fill="none" stroke="#D4AF37" stroke-width="1.2" opacity="0.5"/>
+                <path d="M50,20 Q100,32 150,20 Q200,8 250,20" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.35"/>
+            </svg>
+        </section>
+
+        <!-- Heart Divider -->
+        <div class="divider-heart"><svg viewBox="0 0 40 36" width="24" height="22"><path d="M20,36 L17,33 C6,23 0,17 0,10 C0,4.5 4.5,0 10,0 C13.4,0 16.7,1.7 20,4.5 C23.3,1.7 26.6,0 30,0 C35.5,0 40,4.5 40,10 C40,17 34,23 23,33 L20,36Z" fill="#D4AF37" opacity="0.4"/></svg></div>
+        <!-- Love Quote -->
+        <section class="inv-section inv-quote">
+            <svg class="quote-flourish" viewBox="0 0 200 30" width="160" height="24">
+                <path d="M30,15 Q75,0 100,15 Q125,30 170,15" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.4"/>
+            </svg>
+            <p class="quote-text">"And so, our next chapter begins."<br><span class="quote-sub">"Together is a lovely place to be."</span></p>
+            <svg class="quote-flourish" viewBox="0 0 200 30" width="160" height="24">
+                <path d="M30,15 Q75,30 100,15 Q125,0 170,15" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.4"/>
+            </svg>
+        </section>
+        <!-- Heart Divider -->
+        <div class="divider-heart"><svg viewBox="0 0 40 36" width="24" height="22"><path d="M20,36 L17,33 C6,23 0,17 0,10 C0,4.5 4.5,0 10,0 C13.4,0 16.7,1.7 20,4.5 C23.3,1.7 26.6,0 30,0 C35.5,0 40,4.5 40,10 C40,17 34,23 23,33 L20,36Z" fill="#D4AF37" opacity="0.4"/></svg></div>
+
+        <!-- Countdown Section -->
+        <section class="inv-section inv-countdown">
+            <p class="countdown-title">Counting Down to Forever</p>
+            <div class="countdown" id="countdown">
+                <div class="countdown-unit">
+                    <span class="countdown-number" id="countdown-days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-sep">:</div>
+                <div class="countdown-unit">
+                    <span class="countdown-number" id="countdown-hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-sep">:</div>
+                <div class="countdown-unit">
+                    <span class="countdown-number" id="countdown-mins">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-sep">:</div>
+                <div class="countdown-unit">
+                    <span class="countdown-number" id="countdown-secs">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Heart Divider -->
+        <div class="divider-heart"><svg viewBox="0 0 40 36" width="24" height="22"><path d="M20,36 L17,33 C6,23 0,17 0,10 C0,4.5 4.5,0 10,0 C13.4,0 16.7,1.7 20,4.5 C23.3,1.7 26.6,0 30,0 C35.5,0 40,4.5 40,10 C40,17 34,23 23,33 L20,36Z" fill="#D4AF37" opacity="0.4"/></svg></div>
+
+        <!-- Date & Time Section -->
+        <section class="inv-section inv-datetime">
+            <div class="inv-date-card">
+                <p class="inv-day">Friday</p>
+                <p class="inv-date-number">18</p>
+                <p class="inv-month-year">December 2026</p>
+            </div>
+            <div class="inv-time">
+                <p>Muhurtham at <strong>11:30 in the Morning</strong></p>
+            </div>
+        </section>
+
+        <!-- Heart Divider -->
+        <div class="divider-heart"><svg viewBox="0 0 40 36" width="24" height="22"><path d="M20,36 L17,33 C6,23 0,17 0,10 C0,4.5 4.5,0 10,0 C13.4,0 16.7,1.7 20,4.5 C23.3,1.7 26.6,0 30,0 C35.5,0 40,4.5 40,10 C40,17 34,23 23,33 L20,36Z" fill="#D4AF37" opacity="0.4"/></svg></div>
+
+        <!-- Venue Section -->
+        <section class="inv-section inv-venue">
+            <h2 class="section-title">Our Venue</h2>
+            <div class="venue-details">
+                <p class="venue-name">Halakki Vokkaligara Samudhaya Bhavana</p>
+                <p class="venue-address">Kumta, Uttara Kannada District<br>Karnataka, India</p>
+                <p class="venue-message">We can't wait to celebrate with you!</p>
+                <a href="https://maps.app.goo.gl/nyfkKiGhfgiY1rFR6" target="_blank" rel="noopener" class="venue-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="venue-pin">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <span>Find Us on the Map</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Heart Divider -->
+        <div class="divider-heart"><svg viewBox="0 0 40 36" width="24" height="22"><path d="M20,36 L17,33 C6,23 0,17 0,10 C0,4.5 4.5,0 10,0 C13.4,0 16.7,1.7 20,4.5 C23.3,1.7 26.6,0 30,0 C35.5,0 40,4.5 40,10 C40,17 34,23 23,33 L20,36Z" fill="#D4AF37" opacity="0.4"/></svg></div>
+
+        <section class="inv-section inv-footer">
+            <p class="footer-gift">"Your presence is the greatest gift"</p>
+
+            <p class="footer-thanks">Can't wait to celebrate with you!</p>
+            <div class="footer-hashtag">
+                <a href="https://instagram.com/explore/tags/AkshayWedsAnusha" target="_blank" rel="noopener">#AkshayWedsAnusha</a>
+            </div>
+            <svg class="footer-heart" viewBox="0 0 40 36" width="32" height="28">
+                <path d="M20,36 L17,33 C6,23 0,17 0,10 C0,4.5 4.5,0 10,0 C13.4,0 16.7,1.7 20,4.5 C23.3,1.7 26.6,0 30,0 C35.5,0 40,4.5 40,10 C40,17 34,23 23,33 L20,36Z" fill="#722F37" opacity="0.2"/>
+            </svg>
+            <p class="footer-love">With love,<br><span class="footer-couple"><span class="footer-couple-first">Akshay</span> &amp; Anusha</span></p>
+            <svg class="footer-flourish" viewBox="0 0 200 30">
+                <path d="M30,15 Q75,0 100,15 Q125,30 170,15" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.4"/>
+            </svg>
+            <p class="footer-copyright">&hearts; Made with love &hearts;</p>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
